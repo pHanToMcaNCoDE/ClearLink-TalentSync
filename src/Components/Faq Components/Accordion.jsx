@@ -21,7 +21,7 @@ const Accordion = () => {
                     </p>
                 </div>
             </div>
-            <div class="hs-accordion border-b border-b-gray-200 py-4 px-8 rounded-[10px] hs-accordion-active:bg-gray-50" id="hs-basic-heading-one">
+            <div class="hs-accordion active border-b border-b-gray-200 py-4 px-8 rounded-[10px] hs-accordion-active:bg-gray-50" id="hs-basic-heading-one">
                 <button class="hs-accordion-toggle items-center gap-x-3 w-full rounded-lg disabled:opacity-50 disabled:pointer-events-none text-left text-[#101828] text-[1rem] flex justify-between font-semibold leading-8 py-2" aria-controls="hs-basic-collapse-one">
                     Can I use ClearLink on multiple devices?
                     <svg class="hs-accordion-active:hidden block w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -37,7 +37,7 @@ const Accordion = () => {
                     </p>
                 </div>
             </div>
-            <div class="hs-accordion border-b border-b-gray-200 py-4 px-8 rounded-[10px] hs-accordion-active:bg-gray-50" id="hs-basic-heading-three">
+            <div class="hs-accordion active border-b border-b-gray-200 py-4 px-8 rounded-[10px] hs-accordion-active:bg-gray-50" id="hs-basic-heading-three">
                 <button class="hs-accordion-toggle items-center gap-x-3 w-full rounded-lg disabled:opacity-50 disabled:pointer-events-none text-left text-[#101828] text-[1rem] flex justify-between font-semibold leading-8 py-2" aria-controls="hs-basic-collapse-one">
                     Is ClearLink compatible with other video conferencing platforms?
                     <svg class="hs-accordion-active:hidden block w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
