@@ -9,7 +9,7 @@ import imgSix from '../../assets/image 103.svg'
 
 const Right = () => {
   return (
-        <div className='w-full lg:w-[42%] py-[2.5em] lg:py-0'>
+        <div className='w-full h-full lg:max-w-[31.25em] py-[2.5em] lg:py-0 p-2 flex justify-center items-center lg:justify-end lg:items-end'>
             <div className='bg-[#EFF8FF] border border-[#B2DDFF] rounded-[1rem]'>
                 <div className='p-[2em] grid-cols-2 grid md:grid-cols-3 lg:grid-cols-3 gap-2 md:gap-3 lg:gap-4'>
                     <img className='rounded-[10px] duration-300 hover:scale-110 w-[8em] h-[7.9em] bg-[#FF9C66]' src={imgOne} alt='Avatar'></img>

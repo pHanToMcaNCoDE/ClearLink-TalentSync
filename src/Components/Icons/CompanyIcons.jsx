@@ -2,7 +2,7 @@ import React from 'react'
 
 const CompanyIcons = () => {
   return (
-    <div className='lg:w-[56.25em] mx-auto'>
+    <div className='max-w-[56.25em] mx-auto'>
         <marquee>
             <div className='flex flex-row items-center gap-x-10 lg:gap-x-14'>
                 <div>

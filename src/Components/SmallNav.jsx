@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import {CiMenuFries} from 'react-icons/ci'
-import Navbar from './Navbar'
 
 const SmallNav = ({open, setOpen}) => {
     
