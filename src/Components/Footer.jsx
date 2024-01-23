@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
             <p className='text-[#475467] text-[1.13rem] font-normal leading-7 text-center md:text-center lg:text-left pt-8'>ClearLink is your gateway to effortless, high-quality video conferencing. Join us in shaping the future of communication!</p>
         </div>
-        <div className='flex flex-col md:flex-row lg:flex-row lg:w-[60%] py-6 lg:py-0'>
+        <div className='flex flex-col md:flex-col lg:flex-row lg:w-[60%] py-6 lg:py-0'>
             <div className='flex flex-row w-full lg:w-[60%]'>
                 <div className='flex flex-col text-justify px-4 lg:px-6'>
                     <li className='list-none py-2 text-[#475467] text-[1rem] font-semibold leading-6'>Product</li>
@@ -62,7 +62,6 @@ const Footer = () => {
                     <Apple/>
                     <Google/>
                 </div>
-
             </div>
         </div>
 
