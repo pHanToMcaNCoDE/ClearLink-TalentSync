@@ -4,7 +4,7 @@ import {MdOutlineCancel} from 'react-icons/md'
 const Navbar = ({open, setOpen}) => {
     
   return (
-    <div className={`fixed top-0 ${open ? 'right-0':'right-[-100em]'} lg:right-0 lg:relative lg:my-[2em] bg-[#F2F4F7] border border-[#D0D5DD] lg:rounded-[6.25em] py-[1em] px-[2em] lg:flex lg:flex-row justify-between items-center text-center lg:text-justify z-50 w-[66%] md:w-[45%] h-screen lg:h-auto lg:w-full transition-all duration-300 ease-in-out`}>
+    <div className={`fixed top-0 ${open ? 'right-1':'right-[-100%]'} lg:right-0 lg:relative lg:my-[2em] bg-[#F2F4F7] border border-[#D0D5DD] lg:rounded-[6.25em] py-[1em] px-[2em] lg:flex lg:flex-row justify-between items-center text-center lg:text-justify z-50 w-[66%] md:w-[45%] h-screen lg:h-auto lg:w-full transition-all duration-300 ease-in-out`}>
 
         {/* Overlay */}
         { open ? <div className='overlay fixed top-0 z-0 left-0 w-full duration-300 h-screen bg-black/80 opacity-10'></div> : ''} 
