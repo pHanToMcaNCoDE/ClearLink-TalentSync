@@ -5,7 +5,7 @@ import Google from './Icons/Google'
 const Footer = () => {
   return (
     <div className='py-[6.25em] flex flex-col lg:flex-row justify-between items-center max-w-[1200px] mx-auto p-2'>
-        <div className='flex flex-col justify-center items-center lg:items-start lg:w-[35%]'>
+        <div className='flex flex-col justify-center items-center lg:items-start lg:w-[32%]'>
             <div className='flex flex-row justify-center lg:items-center gap-y-2 lg:gap-x-1'>
                 {/* <div> */}
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 26 28" fill="none">
@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
             <p className='text-[#475467] text-[1.13rem] font-normal leading-7 text-center md:text-center lg:text-left pt-8'>ClearLink is your gateway to effortless, high-quality video conferencing. Join us in shaping the future of communication!</p>
         </div>
-        <div className='flex flex-col md:flex-col lg:flex-row lg:w-[60%] py-6 lg:py-0'>
+        <div className='flex flex-col md:flex-col lg:flex-row lg:w-[68%] py-6 lg:py-0'>
             <div className='flex flex-row w-full lg:w-[60%]'>
                 <div className='flex flex-col text-justify px-4 lg:px-6'>
                     <li className='list-none py-2 text-[#475467] text-[1rem] font-semibold leading-6'>Product</li>
