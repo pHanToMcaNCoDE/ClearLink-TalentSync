@@ -4,7 +4,7 @@ import Right from './Why Components/Right'
 
 const Why = () => {
   return (
-    <div className='py-[6.25em] h-[100vh] max-w-[1200px] mx-auto p-2'>
+    <div className='py-[6.25em] lg:h-[100vh] max-w-[1200px] mx-auto p-2'>
       {/* Heading */}
       <div className='text-center lg:text-left'>
         <p className='text-[#175CD3] text-[1.13rem] font-medium leading-7'>The ClearLink Advantage</p>
