@@ -9,7 +9,7 @@ const Left = () => {
         <div className='pt-5 lg:pt-10'>
             <Shopify/>
         </div>
-        <div className='pt-5 lg:pt-10'>
+        <div className='pt-5 lg:pt-10 animate-pulse'>
             <Stars/>
         </div>
         <div className='pt-10'>

@@ -1,10 +1,12 @@
 import React from 'react'
 import Left from './Why Components/Left'
 import Right from './Why Components/Right'
+import Arrow from './Why Components/Arrow'
 
 const Why = () => {
   return (
-    <div className='py-[6.25em] lg:h-[100vh] max-w-[1200px] mx-auto p-2'>
+    <div className='relative py-[6.25em] lg:h-[100vh] max-w-[1200px] mx-auto p-2'>
+        <Arrow/>
       {/* Heading */}
       <div className='text-center lg:text-left'>
         <p className='text-[#175CD3] text-[1.13rem] font-medium leading-7'>The ClearLink Advantage</p>
