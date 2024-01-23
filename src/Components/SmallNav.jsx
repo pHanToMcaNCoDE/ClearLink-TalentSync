@@ -4,7 +4,8 @@ import {CiMenuFries} from 'react-icons/ci'
 const SmallNav = ({open, setOpen}) => {
     
   return (
-        <div className='flex flex-row justify-between items-center lg:hidden max-w-[1200px] mx-auto h-[70px] p-2'>
+        <div className='flex flex-row justify-between items-center lg:hidden w-full h-[70px] p-2'>
+
             <div className='flex flex-row justify-end lg:justify-center lg:items-center gap-y-2 lg:gap-x-1 cursor-pointer py-4 lg:py-0'>
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 26 28" fill="none">
@@ -20,6 +21,7 @@ const SmallNav = ({open, setOpen}) => {
             <div onClick={() => setOpen(!open)}>
                 <CiMenuFries className='cursor-pointer' size={27} color='#1570EF'/>
             </div>
+            {/* <Navbar open={open} setOpen={setOpen}/> */}
         </div>
   )
 }

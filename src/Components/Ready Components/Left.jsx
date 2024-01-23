@@ -3,7 +3,7 @@ import React from 'react'
 const Left = () => {
   return (
     <div className='w-full lg:w-[55%]'>
-        <h1 className='text-[#101828] text-[3rem] font-semibold leading-[3.5rem] text-center lg:text-left'>Ready to clear the path to perfect communication?</h1>
+        <h1 className='text-[#101828] text-[2rem] lg:text-[3rem] font-semibold leading-[3.75rem] text-center lg:text-left'>Ready to clear the path to perfect communication?</h1>
         <div className='flex flex-col justify-center lg:justify-start items-start'>
             <div className='flex gap-x-2 pt-3 lg:flex-row items-start'>
                 <svg className='animate-pulse' xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29" fill="none">
